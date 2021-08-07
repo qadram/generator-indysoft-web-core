@@ -8,7 +8,7 @@ const generators = require("./generators");
 
 module.exports = {
     id: 'ext-miletus-app',
-    name: 'TMS WEB Miletus Application',
+    name: 'IndySoft WEB Miletus Application',
     /**
      * @param {import('yeoman-generator')} generator
      * @param {Object} extensionConfig

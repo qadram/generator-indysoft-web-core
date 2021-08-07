@@ -8,7 +8,7 @@ const generators = require("./generators");
 
 module.exports = {
     id: 'ext-web-app',
-    name: 'TMS WEB Application',
+    name: 'IndySoft WEB Application',
     /**
      * @param {import('yeoman-generator')} generator
      * @param {Object} extensionConfig

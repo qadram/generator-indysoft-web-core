@@ -8,7 +8,7 @@ const generators = require("./generators");
 
 module.exports = {
     id: 'ext-pwa-app',
-    name: 'TMS WEB PWA Application',
+    name: 'IndySoft WEB PWA Application',
     /**
      * @param {import('yeoman-generator')} generator
      * @param {Object} extensionConfig

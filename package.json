@@ -1,10 +1,10 @@
 {
-  "name": "generator-tms-web-core",
+  "name": "generator-indysoft-web-core",
   "version": "0.0.13",
-  "description": "Yeoman generator for TMS WEB Core",
+  "description": "Yeoman generator for IndySoft WEB Core",
   "keywords": [
     "yeoman-generator",
-    "tms",
+    "indysoft",
     "web core",
     "vscode",
     "visual studio",
@@ -14,17 +14,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/qadram/generator-tms-web-core.git"
+    "url": "https://github.com/qadram/generator-indysoft-web-core.git"
   },
   "bugs": {
-    "url": "https://github.com/qadram/generator-tms-web-core/issues"
+    "url": "https://github.com/qadram/generator-indysoft-web-core/issues"
   },
   "main": "./generators/app/index.js",
   "homepage": "http://tmssoftware.com",
   "license": "MIT",
   "author": {
-    "name": "TMS Software",
-    "url": "https://github.com/TMS"
+    "name": "IndySoft",
+    "url": "https://github.com/IndySoft"
   },
   "engines": {
     "node": ">=10.0.0"
