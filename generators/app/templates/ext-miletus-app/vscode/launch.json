@@ -1,0 +1,42 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.3.0",
+  "compounds": [
+    {
+      "name": "Run",
+      "preLaunchTask": "Build",
+      "configurations": ["Miletus: main"]
+    },
+    {
+      "name": "Run Without Debugging",
+      "preLaunchTask": "Build",
+      "configurations": ["Miletus: main"]
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Miletus: main",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "windows": {
+        "runtimeExecutable": "${workspaceFolder}/.vscode/launch.bat",
+        "runtimeArgs": [
+          "${command:rad4.tms.getexpandedoutputpath}\\${command:rad4.tms.getprojectname}.exe"
+        ]
+      },
+      "linux": {
+        "runtimeExecutable": "${command:rad4.tms.getexpandedoutputpath}/${command:rad4.tms.getprojectname}"
+        },
+      "osx": {
+        "runtimeExecutable": "${command:rad4.tms.getexpandedoutputpath}/${command:rad4.tms.getprojectname}/${command:rad4.tms.getprojectname}.app/Contents/MacOS/Miletus"
+      },
+      "presentation": {
+        "hidden": true
+      },
+      "outputCapture": "std"
+    }
+  ]
+}

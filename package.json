@@ -1,0 +1,59 @@
+{
+  "name": "generator-tms-web-core",
+  "version": "0.0.13",
+  "description": "Yeoman generator for TMS WEB Core",
+  "keywords": [
+    "yeoman-generator",
+    "tms",
+    "web core",
+    "vscode",
+    "visual studio",
+    "visual studio code",
+    "vs code",
+    "projects"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qadram/generator-tms-web-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qadram/generator-tms-web-core/issues"
+  },
+  "main": "./generators/app/index.js",
+  "homepage": "http://tmssoftware.com",
+  "license": "MIT",
+  "author": {
+    "name": "TMS Software",
+    "url": "https://github.com/TMS"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "npm test",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "cd": "^0.3.3",
+    "chalk": "^4.1.0",
+    "fast-plist": "^0.1.2",
+    "kind-of": "6.0.3",
+    "request-light": "^0.4.0",
+    "sanitize-filename": "^1.6.3",
+    "sax": "^1.2.4",
+    "yeoman-generator": "^4.12.0",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.0.0",
+    "@types/node": "^14.0.27",
+    "@types/yeoman-generator": "^3.1.4",
+    "mocha": "^8.1.3",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^2.6.0",
+    "yo": "^3.1.1"
+  }
+}
