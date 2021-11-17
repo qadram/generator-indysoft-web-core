@@ -43,10 +43,6 @@ module.exports = {
         generator.fs.copyTpl(generator.sourceRoot() + '/Project.dpr', extensionConfig.projectsource, extensionConfig);
         generator.fs.copyTpl(generator.sourceRoot() + '/Project.html', extensionConfig.projecthtmlsource, extensionConfig);
         generator.fs.copyTpl(generator.sourceRoot() + '/Unit.pas', extensionConfig.unitsource, extensionConfig);
-
-        console.log(extensionConfig.projectsource);
-        console.log(extensionConfig.unitsource);
-
         generator.fs.copyTpl(generator.sourceRoot() + '/Unit.dfm', extensionConfig.dfmpathsource, extensionConfig);
         generator.fs.copyTpl(generator.sourceRoot() + '/Unit.html', extensionConfig.unithtmlname, extensionConfig);
     }
